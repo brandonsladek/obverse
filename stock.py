@@ -59,11 +59,3 @@ data_file.write(str(pure_stock_data.get('ATVI', "!")))
 
 data_file.write("\n\nADBE:\n")
 data_file.write(str(pure_stock_data.get('ADBE', "!")))
-
-
-
-
-
-
-
-
