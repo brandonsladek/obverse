@@ -1,19 +1,18 @@
 from sys import argv
-import dropbox
 import ystockquote
 
-script, access_token, data_file = argv
+script, data_file = argv
 
 print("\nOBVERSE 1.0.0 (mystic-lion)")
 
 # Read from file
-print("\nReading Dropbox account access token from external file...")
-access_token = open(access_token, "r")
-print("Done.")
+#print("\nReading Dropbox account access token from external file...")
+#access_token = open(access_token, "r")
+#print("Done.")
 
 # Link script to my Dropbox account
-dbx = dropbox.Dropbox('access_token')
-print("\nSuccessfully linked to Dropbox account.")
+#dbx = dropbox.Dropbox('access_token')
+#print("\nSuccessfully linked to Dropbox account.")
 
 # Open file with data
 data_file = open(data_file, "w")
